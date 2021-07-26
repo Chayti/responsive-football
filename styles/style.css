@@ -7,6 +7,7 @@
 ================================*/
 body{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
     width: 1439.99px;
 }
 
@@ -386,9 +387,22 @@ ol li:nth-child(4) a:hover .fab {
 
 /* mobile Devices */
 @media only screen and (max-width:688px) {
+   main{
+       overflow-x: hidden;
+   }
+/* 
+   .lower-container{
+       display: none;
+   }
+   .culers{
+       display: none;
+   }
+   footer{
+       display: none;
+   } */
     body{
-        max-width: 688px;
-        height: 8300px;
+        width: 98%;
+        /* height: 8300px;    */
     }
    .top-banner{
        max-width: 360px;
@@ -432,6 +446,10 @@ ol li:nth-child(4) a:hover .fab {
         margin-top: 47px;
         margin-left: 15px;
     }
+
+    /* ------------------------------
+        lower-container section start
+    ---------------------------------*/
 
     /* latest news*/
     .latest-news{
@@ -544,9 +562,24 @@ ol li:nth-child(4) a:hover .fab {
 
 /* tablet Devices */
 @media only screen and (min-width:689px) and (max-width:992px) {
+    main{
+        overflow-x: hidden;
+    }
+    
+    /* 
+    .lower-container{
+        display: none;
+    }
+    .culers{
+        display: none;
+    }
+    footer{
+        display: none;
+    } */
+
     body{
-        max-width: 992px;
-        height: 4800px;
+        width: 98%;
+        /* height: 4800px; */
     }
    .top-banner{
        max-width: 992px;
@@ -577,6 +610,11 @@ ol li:nth-child(4) a:hover .fab {
         margin-top: 0;
         margin-left: 16px;
     }
+
+    
+    /* ------------------------------
+        lower-container section start
+    ---------------------------------*/
 
     .lower-container{
         max-width: 992px;
